@@ -7,6 +7,7 @@ import giscusTalk from "vitepress-plugin-comment-with-giscus";
 import DefaultTheme from "vitepress/theme";
 import MyLayout from "./components/MyLayout.vue";
 import MNavLinks from "./components/MNavLinks.vue";
+import Typewriter from "./components/Typewriter.vue";
 import mediumZoom from "medium-zoom";
 import "./style/index.css";
 
@@ -26,6 +27,7 @@ export default {
   },
   enhanceApp({ app, router }: { app: any; router: any }) {
     app.component("MNavLinks", MNavLinks);
+    app.component("Typewriter", Typewriter);
     if (inBrowser) {
       NProgress.configure({ showSpinner: false });
       router.onBeforeRouteChange = () => {

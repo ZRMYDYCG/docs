@@ -12,6 +12,18 @@ const nav = [
         text: "css 🦄",
         link: "/views/css/css.md",
       },
+      {
+        text: "构建工具 🦄",
+        link: "/views/build-tools/index.md",
+      },
+      {
+        text: "Next.js 🦄",
+        link: "/views/nextjs/nextjs.md",
+      },
+      {
+        text: "Mock.js 🦄",
+        link: "/views/mockjs/index.md",
+      }
     ],
   },
   {
@@ -19,9 +31,7 @@ const nav = [
     items: [
       {
         text: "Nest专栏",
-        items: [
-
-        ],
+        items: [],
       },
     ],
   },

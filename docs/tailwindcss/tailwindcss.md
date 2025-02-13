@@ -2,7 +2,7 @@
 outline: [2,3]
 ---
 
-# TailwindCSS 教程
+# <Typewriter text="TailwindCSS 教程" delay="200" type="neon" loop />
 
 ## 布局
 

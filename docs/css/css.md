@@ -1,4 +1,4 @@
-# CSS3教程
+# <Typewriter text="CSS3 教程" delay="200" type="neon" loop />
 
 ## 文档
 

@@ -1,3 +1,5 @@
+# CSS3教程
+
 ## 文档
 
 [unset - CSS：层叠样式表 | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Web/CSS/unset)
@@ -8,7 +10,7 @@
 
 ## 布局
 
-<img src="http://mdrs.yuanjin.tech/img/20210511102802.png" alt="css" />
+<img src="https://github.com/user-attachments/assets/6b2701de-e879-4d66-8982-59fb61142c16" alt="css" />
 
 **浮动**：做文字环绕效果
 
@@ -24,8 +26,7 @@
 
 #### 生成弹性容器和弹性项目
 
-
-<img src="http://mdrs.yuanjin.tech/img/20210511112624.png" />
+<img src="https://github.com/user-attachments/assets/2140148c-26bd-4450-a501-94ce73453e2c" />
 
 **默认情况下，** 弹性项目沿着主轴依次排列，侧轴拉伸
 
@@ -33,23 +34,19 @@
 
 通过`flex-direction`可更改主轴方向
 
-<img src="http://mdrs.yuanjin.tech/img/20210511112510.png" />
+<img src="https://github.com/user-attachments/assets/71ec048b-a826-4179-bf82-2f55a3adfc04" />
 
 #### 主轴排列
 
 通过`justify-content`属性，可以影响主轴的排列方式
 
-
-
-<!-- ![](http://mdrs.yuanjin.tech/img/20210511113617.png) -->
-
-
+<img src="https://github.com/user-attachments/assets/f4948174-4603-4cd8-9953-a69ec729e08e" />
 
 #### 侧轴排列
 
 通过`align-items`属性，可以影响侧轴的排列方式
 
-<img src="http://mdrs.yuanjin.tech/img/20210511114016.png" />
+<img src="https://github.com/user-attachments/assets/411c6dd2-3aa9-4560-af3d-3b7852214445" />
 
 #### 弹性项目伸缩
 
@@ -59,16 +56,14 @@
 
 在 **弹性项目** 上使用`flex`属性，可设置拉伸和压缩比例：`flex: 拉伸比例 压缩比例 初始尺寸`
 
-
-
 拉伸示例：
 
-<img src="http://mdrs.yuanjin.tech/img/20210511120916.png" />
+<img src="https://github.com/user-attachments/assets/c99dbad8-86f5-4397-b122-37885da0be71" />
 
 
 压缩示例：
 
-<img src="http://mdrs.yuanjin.tech/img/20210511121459.png" />
+<img src="https://github.com/user-attachments/assets/daf24c21-65ed-4f21-85d9-190e2e725e3a" />
 
 默认情况下，`flex: 0 1 auto`
 
@@ -78,11 +73,9 @@
 
 给**弹性容器**设置`flex-wrap: wrap`，即可主轴换行
 
-<img src="https://pic1.imgdb.cn/item/67acd683d0e0a243d4feaebe.png" />
+<img src="https://github.com/user-attachments/assets/4fb7b536-5d71-4bf2-9343-4fa6cf79aec2" />
 
 > 尽管如此，多行多列仍然推荐使用网格布局
-
-
 
 ### 网格
 
@@ -96,7 +89,7 @@
 
 #### 生成网格布局
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/34278134/1723510732831-9dc540ca-032a-4b42-b433-64d89ac889dd.png" />
+<img src="https://github.com/user-attachments/assets/cd7ce49a-5549-46a2-80db-0f4ad66f8856" />
 
 容器生成网格布局后，其所有子元素为**网格项目**
 
@@ -109,13 +102,13 @@
 
 **它们的语法是相同的**
 
-<img src="http://mdrs.yuanjin.tech/img/20210511172305.png" />
+<img src="https://github.com/user-attachments/assets/3fb967ab-9c4b-4a83-a4d2-b81156d3894f" />
 
 #### 改变排列方向
 
 使用属性`grid-auto-flow: column`，可使子元素按列排放
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/34278134/1723510732847-2ae58704-2755-4b22-b98e-ace7d65debb4.png" />
+<img src="https://github.com/user-attachments/assets/4fe08959-2fe3-47bc-83c9-ea8897823412" />
 
 #### 单元格之间的间隙
 
@@ -127,7 +120,7 @@ column-gap: 20px; /* 列间隙为20px */
 gap: 10px 20px; /* 行间隙为10px，列间隙为20px */
 ```
 
-<img src="http://mdrs.yuanjin.tech/img/20210512132025.png" />
+<img src="https://github.com/user-attachments/assets/bbcb3267-ea47-483e-b3c0-9141f84c13bb" />
 
 #### 单元格内部的对齐
 
@@ -145,7 +138,7 @@ justify-items: start 左 | end 右 | center 中 | stretch 拉伸;
 align-items: start 上 | end 下 | center 中 | stretch 拉伸;
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/34278134/1723510735538-59f45c71-a8bf-4d4e-9404-19d1a71bb0d0.png" />
+<img src="https://github.com/user-attachments/assets/3285a3dc-2a7b-45b1-9b32-3dd916ddd34e" />
 
 可以使用速写属性`place-items: 垂直对齐方式 水平对齐方式`同时设置这两个值
 
@@ -165,7 +158,7 @@ place-items: start center; /* 垂直靠上，水平居中 */
 grid-area: 起始行线编号/起始列线编号/结束行线编号/结束列线编号;
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/34278134/1723510733967-19035e8a-0d1e-4d69-bce1-84acb7e1aaf0.png" />
+<img src="https://github.com/user-attachments/assets/0e53a4a0-024f-46d8-a68e-1fc43ef56b74" />
 
 ## 视觉
 
@@ -189,7 +182,7 @@ grid-area: 起始行线编号/起始列线编号/结束行线编号/结束列线
 
 [MDN详细文档](https://developer.mozilla.org/zh-CN/docs/Web/CSS/border-radius) 通过设置`border-radius`，可以设置盒子的圆角 
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/34278134/1723510735770-9a14f2c0-e8b5-4eff-901d-69af4a7a2742.png" />
+<img src="https://github.com/user-attachments/assets/5bd505d9-dee9-4412-8ac2-9a11d2bc52c3" />
 
 `border-radius`可以有很多灵活的用法，将下面的代码依次粘贴到页面中测试一下 
 
@@ -209,7 +202,7 @@ border-radius: 10px 20px 30px 40px; /* 分别设置左上、右上、右下、�
 
  background: linear-gradient(to bottom, #e66465, #9198e5); 
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/34278134/1723510735994-57195215-63bd-4bcb-9b38-05e720cc2394.png" />
+<img src="https://github.com/user-attachments/assets/658181c0-0213-4ef8-aa5e-656ae8965603" />
 
 ### 变形
 
@@ -230,14 +223,14 @@ border-radius: 10px 20px 30px 40px; /* 分别设置左上、右上、右下、�
 
 使用`translate`可以让盒子在原来位置上产生位移，类似于相对定位 
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/34278134/1723510736534-bf183735-571c-4e28-9a26-0839fb071a4e.png" />
+<img src="https://github.com/user-attachments/assets/a2c9b626-fdac-4503-98b3-455a1de04c59" />
 
 
 ### scale 缩放 
 
 使用`translate`可以让盒子在基于原来的尺寸发生缩放 
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/34278134/1723510736266-b20fe030-06ab-442d-a65e-8bf24444ef1e.png" />
+<img src="https://github.com/user-attachments/assets/7dbb5d9c-4fb2-4d56-b8a2-840b74eb4962" />
 
 ### rotate 旋转 
 
@@ -278,16 +271,12 @@ transform: translate(100px, 100px) rotate(45deg);
 <iframe height="600" style="width: 100%;" scrolling="no" title="css-transform-origin" src="http://mdrs.yuanjin.tech/html/css-manual/multi-transform.html" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true" />
 
 
-本来打算把这个效果嵌入到markdown，但由于嵌入后出现一些未知的bug，因此只能粘贴效果地址了 
-
 ### 过渡和动画 
 
 使用过渡和动画，可以让css属性变化更加丝滑 **过渡和动画无法对所有的CSS属性产生影响，能够产生影响的只有数值类属性**，例如：颜色、宽高、字体大小等等 
 
 
-
 #### 过渡 
-
 
 [MDN详细文档](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition) 
 
@@ -296,7 +285,11 @@ transition: 过渡属性 持续时间 过渡函数 过渡延迟
 
 - **过渡属性**   
 
-针对哪个css属性应用过渡。例如填写`transform`，则表示仅针对**transform**属性应用过渡。   若填写`all`或不填写，则表示针对所有css属性都应用过渡 
+针对哪个css属性应用过渡。
+
+例如填写`transform`，则表示仅针对 **transform** 属性应用过渡。   
+
+若填写`all`或不填写，则表示针对所有css属性都应用过渡 
 
 - **持续时间**   css属性变化所持续的时间，需要带上单位。例如`3s`表示3秒，`0.5s`或`500ms`均表示500毫秒 
 
@@ -304,7 +297,9 @@ transition: 过渡属性 持续时间 过渡函数 过渡延迟
 
 `ease-in-out`：平滑开始，平滑结束   
 
-`linear`：线性变化   `ease-in`：仅平滑开始   
+`linear`：线性变化   
+
+`ease-in`：仅平滑开始   
 
 `ease-out`：仅平滑结束 
 
@@ -314,7 +309,11 @@ transition: 过渡属性 持续时间 过渡函数 过渡延迟
 
 #### 动画
 
- [MDN详细文档](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Animations)**动画的本质是预先定义的一套css变化规则，然后给该规则取个名字**![](https://cdn.nlark.com/yuque/0/2024/png/34278134/1723510746044-f0e13783-ba4d-4dab-8bde-f9c6362c6173.png)
+ [MDN详细文档](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Animations)
+ 
+ **动画的本质是预先定义的一套css变化规则，然后给该规则取个名字**
+ 
+<img src="https://github.com/user-attachments/assets/91984b3e-383a-45c1-aa87-b85a78e53cc0" />
 
 然后，其他元素即可使用这样的规则： animation: 规则名 持续时间; 
 
@@ -335,14 +334,18 @@ transition: 过渡属性 持续时间 过渡函数 过渡延迟
 
 ### box-sizing 
 
-一图胜千言 
+一图胜千言
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/34278134/1723510745800-0c738f0b-5437-4590-a594-efdbf3087e4b.png" />
+<img src="https://github.com/user-attachments/assets/0f1b682c-4a06-47bd-8551-4d60780fc7d7" />
 
  使用`border-box`控制尺寸更加直观，因此，很多网站都会加入下面的代码 
 
 ```css
-* {   margin: 0;   padding: 0;   box-sizing: border-box; } 
+* {   
+    margin: 0;   
+    padding: 0;   
+    box-sizing: border-box; 
+} 
 ```
 
 
@@ -351,10 +354,23 @@ transition: 过渡属性 持续时间 过渡函数 过渡延迟
  [MDN font-face 指令](https://developer.mozilla.org/zh-CN/docs/Web/CSS/@font-face)
 
 
- css3新增了`font-face`指令，该指令可以让我们加载网络字体 其最常见的应用就是字体图标 **字体图标本质上是文字，即通过**`**color**`**设置颜色，通过**`**font-size**`**设置尺寸** 
+ css3新增了`font-face`指令，该指令可以让我们加载网络字体 
+ 
+ 其最常见的应用就是字体图标 
+ 
+ **字体图标本质上是文字，即通过**`**color**`**设置颜色，通过** `**font-size**` **设置尺寸** 
 
 
-国内使用最多的字体图标平台是[阿里巴巴矢量图标库](https://www.iconfont.cn/) 登录平台后即可免费使用其所有字体图标 图像内容适应 [MDN详细文档](https://developer.mozilla.org/zh-CN/docs/Web/CSS/object-fit)
+国内使用最多的字体图标平台是
+
+[阿里巴巴矢量图标库](https://www.iconfont.cn/) 
+
+登录平台后即可免费使用其所有字体图标 
+
+
+### 图像内容适应 
+
+[MDN详细文档](https://developer.mozilla.org/zh-CN/docs/Web/CSS/object-fit)
  
 
 css3属性`object-fit`可以控制**多媒体内容和与元素**的适应方式，通常应用在`img`或`video`元素中 
@@ -365,13 +381,13 @@ css3属性`object-fit`可以控制**多媒体内容和与元素**的适应方式
 
 下图中的所有`img`元素均被固定了宽高，溢出img的部分实际上均不会显示 
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/34278134/1723510746489-fe464b65-ec6b-4e26-947e-eb7603def7e8.png" />
+<img src="https://github.com/user-attachments/assets/9dd434c1-ea29-482e-8059-b033b0ba3e7a" />
 
 ### 视口单位 
 
 css3支持使用`vw`和`vh`作为单位，分别表示`视口宽度`和`视口高度` 例如`1vh`表示视口高度的`1%`，`100vw`表示视口宽度的`100%` 伪元素选择器 通过`::before`和`::after`选择器，可以通过css给元素生成两个子元素 
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/34278134/1723510748249-63be3576-b5bf-4eb1-b391-f8101b2b57bd.png" />
+<img src="https://github.com/user-attachments/assets/573af7c6-9329-4f5e-bdff-4fd15fe3f0d1" />
 
  使用伪元素可以避免在HTML中使用过多的空元素 **伪元素必须要有**`**content**`**属性，否则不能生效，如果不需要有元素内容，设置**`**content:''**` 
 

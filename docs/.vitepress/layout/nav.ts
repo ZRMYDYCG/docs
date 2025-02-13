@@ -1,16 +1,16 @@
 const nav = [
   { text: "首页", link: "/" },
-  { text: "开发导航", link: "/nav/" },
+  { text: "开发导航", link: "/views/nav/" },
   {
     text: "前端开发",
     items: [
       {
         text: "tailwindcss 🦄",
-        link: "/tailwindcss/tailwindcss.md",
+        link: "/views/tailwindcss/tailwindcss.md",
       },
       {
         text: "css 🦄",
-        link: "/css/css.md",
+        link: "/views/css/css.md",
       },
     ],
   },

@@ -37,16 +37,19 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
       easing: "ease-in",
       pseudoElement: `::view-transition-${isDark.value ? "old" : "new"}(root)`,
     }
-  );
-});
+  )
+})
 </script>
+
+
 
 <template>
   <DefaultTheme.Layout v-bind="$attrs">
     <template #doc-footer-before>
       <BackToTop />
     </template>
-    <template #doc-bottom> </template>
+    <template #doc-bottom>
+    </template>
   </DefaultTheme.Layout>
 </template>
 

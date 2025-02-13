@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "yishao's docs"
   text: 小小池塘
-  tagline: "\n一个好的设计产品是迭代出来的，好的设计师也是持续不断的学习和总结。"
+  tagline: "\n一个好的设计产品是迭代出来的，好的工程师也是持续不断的学习和总结。"
   image:
     src: /avatar.jpg
     alt: yi's avatar
@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 关于我
-      link: /about/
+      link: /views/about/
 
 features:
   - icon:
@@ -35,6 +35,18 @@ features:
       src: /icons/nest.svg
     title: "Nest"
     details: "支持微服务架构，具有强大的依赖注入系统和模块化设计。"
+  - icon:
+      src: /icons/VitePress.svg
+    title: "VitePress"
+    details: "基于 Vue 的静态网站生成器，支持 Markdown 语法，可快速搭建个人博客。"
+  - icon:
+      src: /icons/vitest.svg
+    title: "Vitest"
+    details: "单元测试框架"    
+  - icon:
+      src: /icons/vite.svg
+    title: "Vite"
+    details: "下一代前端开发与构建工具"      
 comments: false
 ---
 

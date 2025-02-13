@@ -8,6 +8,7 @@ import DefaultTheme from "vitepress/theme";
 import MyLayout from "./components/MyLayout.vue";
 import MNavLinks from "./components/MNavLinks.vue";
 import Typewriter from "./components/Typewriter.vue";
+import Video from "./components/Video.vue";
 import mediumZoom from "medium-zoom";
 import "./style/index.css";
 
@@ -28,6 +29,7 @@ export default {
   enhanceApp({ app, router }: { app: any; router: any }) {
     app.component("MNavLinks", MNavLinks);
     app.component("Typewriter", Typewriter);
+    app.component("VideoPlayer", Video)
     if (inBrowser) {
       NProgress.configure({ showSpinner: false });
       router.onBeforeRouteChange = () => {
@@ -47,12 +49,16 @@ export default {
     // giscus配置
     giscusTalk(
       {
-        repo: "ZRMYDYCG/docs", //仓库
-        repoId: "R_kgDON4Zgtw", //仓库ID
-        category: "General", // 讨论分类
-        categoryId: "DIC_kwDOE170", //讨论分类ID
+        repo: "ZRMYDYCG/docs",
+        repoId: "R_kgDON4Zgtw",
+        category: "General",
+        categoryId: "DIC_kwDON4Zgt84Cm5yW",
         mapping: "pathname",
+        strict: "0",
+        reactionsEnabled: "1",
+        emitMetadata: "0",
         inputPosition: "bottom",
+        theme: "purple_dark",
         lang: "zh-CN",
       },
       {

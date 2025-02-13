@@ -35,6 +35,19 @@ const nav = [
       },
     ],
   },
+  {
+    text: "组件库",
+    items: [
+      {
+        text: "vue 🚀",
+        link: "/views/vue/index.md",
+      },
+      {
+        text: "react 🚀",
+        link: "/views/react/index.md",
+      },
+    ],
+  },
 ];
 
 export default nav;

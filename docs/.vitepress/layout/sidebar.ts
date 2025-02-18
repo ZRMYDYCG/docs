@@ -22,5 +22,16 @@ const sidebar = {
           ],
         },
       ],
+    "/views/ssr/": [
+        {text: "目录", link: "/views/ssr/index.md"},
+        {
+            text: "next",
+            items: []
+        },
+        {
+            text: "nuxt",
+            items: []
+        },
+    ]
 };
 export default sidebar;

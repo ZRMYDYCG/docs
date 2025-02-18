@@ -17,8 +17,8 @@ const nav = [
         link: "/views/build-tools/index.md",
       },
       {
-        text: "Next.js 🦄",
-        link: "/views/nextjs/nextjs.md",
+        text: "SSR",
+        link: "/views/ssr/index.md",
       },
       {
         text: "Mock.js 🦄",

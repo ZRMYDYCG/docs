@@ -32,6 +32,22 @@ const sidebar = {
             text: "nuxt",
             items: []
         },
+    ],
+    "/views/nest/": [
+        {text: "目录", link: "/views/nest/index.md"},
+        {
+            text: "项目",
+            items: [
+                {
+                    text: "一刻问卷",
+                    link: "/views/nest/项目/一刻问卷.md",
+                }
+            ]
+        },
+        {
+            text: "语法",
+            items: []
+        }
     ]
 };
 export default sidebar;

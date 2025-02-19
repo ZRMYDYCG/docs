@@ -17,7 +17,7 @@ const nav = [
         link: "/views/build-tools/index.md",
       },
       {
-        text: "SSR",
+        text: "SSR 🦄",
         link: "/views/ssr/index.md",
       },
       {
@@ -30,8 +30,13 @@ const nav = [
     text: "后端开发",
     items: [
       {
-        text: "Nest专栏",
-        items: [],
+        text: "Nest专栏 🦄",
+        items: [
+          {
+            text: '一刻问卷服务端 🟠',
+            link: '/views/nest/项目/一刻问卷.md'
+          }
+        ],
       },
     ],
   },
